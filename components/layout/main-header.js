@@ -8,7 +8,7 @@ const MainHeader = () => {
                 <Link href={'/'}> Next Events Website </Link>
             </div>
             <nav className={styles.navigation}>
-                <ul>
+                <ul className={styles.list}>
                     <li>
                         <Link href={'/events'}> All Events </Link>
                     </li>
